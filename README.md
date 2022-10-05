@@ -111,3 +111,55 @@ rm sub* matep*
 Количество гэпов после обрезания: 578
 
 Длина гэпов после обрезания: 2326
+
+## Бонусная часть задания
+
+Проделал все то же самое, что и в обязательной части задания, но выбирал 1 млн. чтений типо paired-end и 300 тыс. чтений типа mate-pairs.
+
+Результаты лежат в соответствующих папках в подпапках *bonus*.
+
+Скриншоты до подрезаний:
+
+![General Statistics](https://github.com/Deuqz/hse22_hw1/blob/master/pictures/before1bonus.png)
+
+![Quality Scores](https://github.com/Deuqz/hse22_hw1/blob/master/pictures/before2bonus.png)
+
+Скриншоты после подрезаний:
+
+![General Statistics](https://github.com/Deuqz/hse22_hw1/blob/master/pictures/after1bonus.png)
+
+![Quality Scores](https://github.com/Deuqz/hse22_hw1/blob/master/pictures/after2bonus.png)
+
+Ссылка на блокнот: https://colab.research.google.com/drive/1AfUC7zjTjHBnj0syckMAnrn-FAruNEsv?usp=sharing
+
+Сам блокнот лежит в папке *src*
+
+Результаты анализа:
+
+Анализ полученных контигов:
+
+  Количество: 1274
+  
+  Общая длина: 3913708
+  
+  Наибольшая длина: 187087
+  
+  N50: 67003
+  
+Анализ полученных скаффолдов:
+
+  Количество: 150
+  
+  Общая длина: 3851777
+
+  Наибольшая длина: 1894726
+
+  N50: 891720
+  
+Количество гэпов до обрезания: 1969
+
+Длина гэпов до обрезания: 7976
+
+Количество гэпов после обрезания: 1289
+
+Длина гэпов после обрезания: 5194

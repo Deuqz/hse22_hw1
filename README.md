@@ -24,9 +24,9 @@ multiqc -o multiqc fastqc
 ```
 Скриншоты:
 
-![General Statistics](https://github.com/Deuqz/hse22_hw1/blob/main/pictures/before1.png)
+![General Statistics](https://github.com/Deuqz/hse22_hw1/blob/master/pictures/before1.png)
 
-![Quality Scores](https://github.com/Deuqz/hse22_hw1/blob/main/pictures/before2.png)
+![Quality Scores](https://github.com/Deuqz/hse22_hw1/blob/master/pictures/before2.png)
 
 #### 4. Подрезаю чтения
 ```bash
@@ -50,9 +50,9 @@ multiqc -o multiqc_trimmed fastqc_trimmed
 ```
 Скриншоты:
 
-![General Statistics](https://github.com/Deuqz/hse22_hw1/blob/main/pictures/after1.png)
+![General Statistics](https://github.com/Deuqz/hse22_hw1/blob/master/pictures/after1.png)
 
-![Quality Scores](https://github.com/Deuqz/hse22_hw1/blob/main/pictures/after2.png)
+![Quality Scores](https://github.com/Deuqz/hse22_hw1/blob/master/pictures/after2.png)
 
 #### 7. Собираю контиги
 Далее такие тяжелые команды я осознанно запускал в 4 потока, заранее проверив через *htop*, что есть вычислительные мощности.
